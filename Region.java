@@ -45,6 +45,10 @@ public class Region {
         return false;
     }
 
+   public boolean isDomainEmpty(){
+       return domain.isEmpty();
+   }
+    
     public void setColor(String color) {
         this.color = color;
     }
